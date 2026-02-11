@@ -19,7 +19,7 @@ const App = () => {
   });
 
   useEffect(() => {
-    const newSocket = io('https://cosmic-bingo-cbqu.vercel.app', {
+    const newSocket = io('https://cosmic-bingo.onrender.com', {
       transports: ['websocket', 'polling'], // Ensure reliable connection
       query: { userId }
     });
